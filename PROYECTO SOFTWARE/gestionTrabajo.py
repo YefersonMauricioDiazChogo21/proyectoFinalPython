@@ -1,0 +1,2 @@
+def gestionTrabajo():
+    print()
