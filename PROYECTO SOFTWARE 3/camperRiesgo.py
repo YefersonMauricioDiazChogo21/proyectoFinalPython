@@ -1,0 +1,3 @@
+
+def camperRiesgo():
+    print()
