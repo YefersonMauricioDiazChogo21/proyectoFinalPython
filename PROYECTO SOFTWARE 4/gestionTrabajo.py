@@ -45,7 +45,7 @@ gestion ={"trainers":{"1":{"name":"Miguel",
           }
 def trainers():
     for id in gestion["trainers"]:
-        print("ID:",id,"-",gestion["trainers"][id]["nombre"])
+        print("ID:",id,"-",gestion["trainers"][id]["name"])
     bandera=True
     while bandera:
         print("1. Agregar trainer\n"
@@ -89,13 +89,13 @@ def rutas():
                                         "backend":str(input("Backend\n"))}
             elif opc==2:
                 rutaNueva= input("Nombre de la ruta")
-                gestion["rutas"]= {rutaNueva:{"nombre":rutaNueva,
+                gestion["rutas"][rutaNueva]={"nombre":rutaNueva,
                                             "asignado":{"fundamentos":["introduccion a la algoritmia","PseInt","Python"],
                                                         "web":["HTML","CSS","Bootstrap"]},
                                             "elegido":{"formal":rutaNueva,
-                                                        "SGDB":{"principal":str(input("Sistema de base de datos primaria o principal\n")),
-                                                                "secundaria":str(input("Sistema de base de datos secundaria\n"))},
-                                                        "backend":str(input("Backend\n"))
+                                                        "SGDB":{"principal":str(input("Ingresé el sistema de base de datos principal\n")),
+                                                                "secundaria":str(input("Ingrese el sistema de base de datos secundaria\n"))},
+                                                        "Ingrese el backend":str(input("Backend\n"))
                                                         },
                                             "cupo":[]   
                                              }
