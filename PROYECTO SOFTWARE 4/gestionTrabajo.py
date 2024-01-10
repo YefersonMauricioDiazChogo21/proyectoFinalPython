@@ -76,20 +76,20 @@ def rutas():
     while bandera:
         for ruta in gestion["rutas"]:
             print(gestion["rutas"][ruta]["nombre"])
-            opc=int(input("\t1. Editar ruta existente\n"
+        opc=int(input("\t1. Editar ruta existente\n"
                         "\t2. Crear nueva ruta\n"
                         "\t3. salir"))
-            if opc==1:
-                for ruta in gestion["rutas"]:
+        if opc==1:
+            for ruta in gestion["rutas"]:
                     print(gestion["rutas"][ruta]["nombre"])
-                rutaExistente= input("Nombre de la ruta")
-                gestion["rutas"][rutaExistente]["elegido"]= {"formal":rutaExistente,
+            rutaExistente= input("Nombre de la ruta")
+            gestion["rutas"][rutaExistente]["elegido"]= {"formal":rutaExistente,
                                         "SGDB":{"principal":str(input("Sistema de base de datos primaria o principal\n")),
                                                "secundaria":str(input("Sistema de base de datos secundaria\n"))},
                                         "backend":str(input("Backend\n"))}
-            elif opc==2:
-                rutaNueva= input("Nombre de la ruta")
-                gestion["rutas"][rutaNueva]={"nombre":rutaNueva,
+        elif opc==2:
+            rutaNueva= input("Nombre de la ruta")
+            gestion["rutas"][rutaNueva]={"nombre":rutaNueva,
                                             "asignado":{"fundamentos":["introduccion a la algoritmia","PseInt","Python"],
                                                         "web":["HTML","CSS","Bootstrap"]},
                                             "elegido":{"formal":rutaNueva,
@@ -100,10 +100,10 @@ def rutas():
                                             "cupo":[]   
                                              }
                                     }
-            elif opc==3:
-                bandera=False
-            else:
-                print("Opcion invalida")
+        elif opc==3:
+            bandera=False
+        else:
+            print("Opcion invalida")
 def areas():
    print(alerta)
 def gestionTrabajo():
