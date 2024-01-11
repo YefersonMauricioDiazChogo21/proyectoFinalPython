@@ -1,0 +1,85 @@
+{
+    "1005539417": {
+        "nombre": "NodeJs",
+        "asignado": {
+            "fundamentos": {
+                "introduccion a la algoritmia": {
+                    "practica": "",
+                    "teorica": "",
+                    "quices": "",
+                    "trabajos": "",
+                    "notaFinal": ""
+                },
+                "PseInt": {
+                    "practica": "",
+                    "teorica": "",
+                    "quices": "",
+                    "trabajos": "",
+                    "notaFinal": ""
+                },
+                "Python": {
+                    "practica": "",
+                    "teorica": "",
+                    "quices": "",
+                    "trabajos": "",
+                    "notaFinal": ""
+                }
+            },
+            "web": {
+                "HTML": {
+                    "practica": "",
+                    "teorica": "",
+                    "quices": "",
+                    "trabajos": "",
+                    "notaFinal": ""
+                },
+                "CSS": {
+                    "practica": "",
+                    "teorica": "",
+                    "quices": "",
+                    "trabajos": "",
+                    "notaFinal": ""
+                },
+                "Bootstrap": {
+                    "practica": "",
+                    "teorica": "",
+                    "quices": "",
+                    "trabajos": "",
+                    "notaFinal": ""
+                }
+            },
+            "elegido": {
+                "formal": {
+                    "practica": "",
+                    "teorica": "",
+                    "quices": "",
+                    "trabajos": "",
+                    "notaFinal": ""
+                },
+                "SGDB": {
+                    "principal": {
+                        "practica": "",
+                        "teorica": "",
+                        "quices": "",
+                        "trabajos": "",
+                        "notaFinal": ""
+                    },
+                    "secundaria": {
+                        "practica": "",
+                        "teorica": "",
+                        "quices": "",
+                        "trabajos": "",
+                        "notaFinal": ""
+                    }
+                },
+                "backend": {
+                    "practica": "",
+                    "teorica": "",
+                    "quices": "",
+                    "trabajos": "",
+                    "notaFinal": ""
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,187 @@
+{
+    "trainers": {
+        "1": {
+            "name": "Miguel",
+            "horarios": {
+                "6am": "NodeJs",
+                "10am": "",
+                "2pm": "",
+                "6pm": ""
+            },
+            "rutas": [
+                "NodeJs"
+            ]
+        },
+        "2": {
+            "name": "Johlver",
+            "horarios": {
+                "6am": "",
+                "10am": "",
+                "2pm": "",
+                "6pm": ""
+            },
+            "rutas": []
+        },
+        "3": {
+            "name": "Juan",
+            "horarios": {
+                "6am": "",
+                "10am": "",
+                "2pm": "",
+                "6pm": ""
+            },
+            "rutas": []
+        },
+        "4": {
+            "name": "Pedro",
+            "horarios": {
+                "6am": "",
+                "10am": "",
+                "2pm": "",
+                "6pm": ""
+            },
+            "rutas": []
+        },
+        "5": {
+            "name": "Camilo",
+            "horarios": {
+                "6am": "",
+                "10am": "",
+                "2pm": "",
+                "6pm": ""
+            },
+            "rutas": [
+            ]
+        }
+    },
+    "rutas": {
+        "231": {
+            "nombre": "NodeJs",
+            "asignado": {
+                "fundamentos": [
+                    "introduccion a la algoritmia",
+                    "PseInt",
+                    "Python"
+                ],
+                "web": [
+                    "HTML",
+                    "CSS",
+                    "Bootstrap"
+                ]
+            },
+            "elegido": {
+                "formal": "nodejs",
+                "SGDB": {
+                    "principal": "",
+                    "secundaria": ""
+                },
+                "backend": ""
+            },
+            "cupo": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,26,28,29,30,31,32,33]
+        },
+        "232": {
+            "nombre": "Java",
+            "asignado": {
+                "fundamentos": [
+                    "introduccion a la algoritmia",
+                    "PseInt",
+                    "Python"
+                ],
+                "web": [
+                    "HTML",
+                    "CSS",
+                    "Bootstrap"
+                ]
+            },
+            "elegido": {
+                "formal": "java",
+                "SGDB": {
+                    "principal": "",
+                    "secundaria": ""
+                },
+                "backend": ""
+            },
+            "cupo": []
+        },
+        "233": {
+            "nombre": "NetCore",
+            "asignado": {
+                "fundamentos": [
+                    "introduccion a la algoritmia",
+                    "PseInt",
+                    "Python"
+                ],
+                "web": [
+                    "HTML",
+                    "CSS",
+                    "Bootstrap"
+                ]
+            },
+            "elegido": {
+                "formal": "netcore",
+                "SGDB": {
+                    "principal": "",
+                    "secundaria": ""
+                },
+                "backend": ""
+            },
+            "cupo": []
+        }
+    },
+    "areas": {
+        "sputnik": {
+            "6am": {
+                "trainer": "",
+                "ruta": ""
+            },
+            "10am": {
+                "trainer": "",
+                "ruta": ""
+            },
+            "2pm": {
+                "trainer": "",
+                "ruta": ""
+            },
+            "6pm": {
+                "trainer": "",
+                "ruta": ""
+            }
+        },
+        "apolo": {
+            "6am": {
+                "trainer": "",
+                "ruta": ""
+            },
+            "10am": {
+                "trainer": "",
+                "ruta": ""
+            },
+            "2pm": {
+                "trainer": "",
+                "ruta": ""
+            },
+            "6pm": {
+                "trainer": "",
+                "ruta": ""
+            }
+        },
+        "artemis": {
+            "6am": {
+                "trainer": "",
+                "ruta": ""
+            },
+            "10am": {
+                "trainer": "",
+                "ruta": ""
+            },
+            "2pm": {
+                "trainer": "",
+                "ruta": ""
+            },
+            "6pm": {
+                "trainer": "",
+                "ruta": ""
+            }
+        }
+    }
+}
